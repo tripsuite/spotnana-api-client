@@ -1,0 +1,17 @@
+{
+  "name": "@tripsuite/spotnana-api-client",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/api.js",
+  "types": "dist/api.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.0"
+  }
+}
