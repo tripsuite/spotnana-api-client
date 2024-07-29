@@ -4,6 +4,9 @@
   "description": "TypeScript Node.js API client for Spotnana",
   "main": "dist/api.js",
   "types": "dist/api.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
